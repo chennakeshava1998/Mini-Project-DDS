@@ -9,11 +9,11 @@ Modules used :
 MAIN : Combines all the other modules.
 KEY  : Interface for reading password stored in the Key. Also used for writing the new passwords into the Key.
 LOCK : Interface for reading password stored in the Lock. Also used for writing the new passwords into the Lock.
-RPG  : Random Password Generator. Using the inbuilt function $random in verilog, random numbers are generated and used as the new 		   passwords.
+RPG  : Random Password Generator. Using the inbuilt function $random in verilog, random numbers are generated and used as the new passwords.
 
-PASS_CHECK : Module that checks if both the passwords match. It also changes values of readLock and readKey - enables writing onto 				 Lock and Key.
+PASS_CHECK : Module that checks if both the passwords match. It also changes values of readLock and readKey - enables writing onto Lock and Key.
 
-TEST : Test module for testing the functionality. This is mostly redundant, as most of useful messages have been used inside the 		   above core modules itself.
+TEST : Test module for testing the functionality. This is mostly redundant, as most of useful messages have been used inside the above core modules itself.
 
 
 
